@@ -1,0 +1,632 @@
+body
+{
+margin:0%;
+padding: 0%;
+width: 100%;
+}
+
+.header
+{
+  height: 23%;
+  width: 100%;
+  position: fixed;
+  background:#fff;
+  margin-top: -25px;
+}
+.mklogo
+{
+ float:left;
+ height: 15%;
+ width: 9%;
+ position: fixed;
+ background:#fff;
+ padding: 0%;
+
+}
+.mklogo img
+{
+  height: 10%;
+  width:6%;
+  position: fixed;
+  margin-left: 1%;
+  padding-top: 1%;
+}
+.loginimage
+{
+  height: 15%;
+  width: 8%;
+  float: right;
+  margin-top: 1.5%;
+
+}
+.loginimage img
+{
+  height: 180%;
+  width: 45%;
+}
+.loginimage img:hover
+{
+  transform: scale(0.9);
+}
+
+.title
+{
+  height: 10%;
+  width: 20%;
+  position: fixed;
+  background:#fff; 
+  margin-left: 40%;
+}
+.title p
+{
+  color:#000;
+  position: fixed;
+  letter-spacing: 15px;
+  font-family:cursive;
+  font-size: 30px;
+  margin-left: -8%;
+  margin-top: 5px;
+  
+}
+
+
+.title1
+{
+  position: fixed;
+  color:#A3956D;
+  position: absolute;
+  top:30px;
+  left:42%;
+  font-size:20px;
+  font-family: sans-serif;
+}
+.topnav 
+{
+  height: 50px;
+  overflow: hidden;
+  background-color: #000;
+  position: fixed;
+  margin-top: 86px;
+  margin-left: -3px;
+  width: 100%;
+  padding: 2px;
+}
+
+.topnav a 
+{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 23px;
+  padding-top: 10px;
+  text-decoration: none;
+  font-size: 22px;
+}
+.search
+{
+  position: fixed;
+    position: absolute;
+    top:-6%;
+    right: 12.5%;
+}
+.search img
+{
+  position: fixed;
+  height: 6%;
+  width: 3%;
+}
+.search img:hover
+{
+  box-shadow: 0 0 20px #A3956D;
+  border-radius: 50%;
+}
+.topnav a:hover 
+{
+
+  color: #000;
+  background: #fff;
+}
+.topnav .searchbar
+{
+  float: center;
+  position: fixed;
+
+}
+.topnav input[type=text]
+{
+  padding: 6px;
+  margin-top: 8px;
+  position: absolute;
+  right: 15%;
+  font-size:17px;
+  border:none;
+  position: fixed;
+  color: #A3956D;
+}
+
+
+.text2
+{
+  height: 10%;
+  width: 100%;
+  background:url("bgwood.jpg");
+  background-size: contain;
+  text-align: center;
+  color:#fff;
+}
+.text2 h1
+{
+  padding-top: 10%;
+  font-family: EngraversGothic BT;
+}
+.text2 h1:hover
+{
+  color:#A3956D;
+  box-shadow: 0 10  16px #A3956D;
+  animation: x 4s infinite;
+}
+@keyframes x{
+  0%
+  {
+    transform: scaleX(1.0);
+  }
+  50%
+  {
+    transform: scaleX(1.2);
+    letter-spacing: 12px;
+    cursor: pointer;
+  }
+  100%
+  {
+    transform: scaleX(1);
+  }
+}
+
+.text2 p
+{
+  font-family: Courier New;
+}
+.text2 p:hover
+{
+  color: #A3956D;
+}
+
+
+
+.parallax {
+  
+  background-image: url('mbg.jpg');
+  height: 10%;
+  padding-top: 60%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.topic
+{
+  
+  background: #A3956D;
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+}
+.topic h2
+{
+  line-height: 1.7em;
+  padding-left: 40px;
+ 
+}
+.topic p
+{
+ padding-left: 45%;
+ margin-top: -12%;
+ line-height: 2.1em;
+}
+.topic:hover
+{
+  animation: y 3s 1;
+}
+@keyframes y{
+  0%
+  {
+    transform: scaleZ(1);
+  }
+  50%
+  {
+    transform: scaleZ(1.9);
+  }
+  100%
+  {
+    transform: scaleZ(1);
+   
+  }
+}
+
+.container {
+    padding-top: 10%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 25px;
+    max-width: 1150px;
+    width: 96.65%;
+    background: #fff;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.image
+{
+    display: block;
+    width: 100%;
+    height: auto;
+    backface-visibility: hidden;
+    vertical-align: middle;
+}
+.image:hover
+{
+  transform: scale(1.06);
+   transition: .7s ease;
+   box-shadow: 0 0 100px #000;
+   animation: a 2s 1;
+}
+@keyframes a{
+  0%
+  {
+    box-shadow: 0 0 20px #fff;
+  }
+  100%
+  {
+    box-shadow: 0 0 20px #000;
+  }
+
+}
+.tt
+{
+  height: auto;
+  width: 100%;
+  background: url("back.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.t1
+{
+  height: 50%;
+  width: 100%;
+  padding-top:5%; 
+ 
+}
+
+.t1 img
+{
+  padding-left: 10%; 
+}
+.t1 img:hover
+{
+  transform: scale(1.1);
+   transition: .5s ease;
+}
+.t1 p
+{
+  margin-top: -4.2%;
+  padding-left: 17%; 
+}
+
+.t2
+{
+  height: 50%;
+  width: 100%;
+  padding-top:5%; 
+ 
+}
+
+.t2 img
+{
+  padding-left: 10%; 
+}
+.t2 img:hover
+{
+  transform: scale(1.1);
+   transition: .3s ease;
+}
+.t2 p
+{
+  margin-top: -4.2%;
+  padding-left: 17%; 
+}
+
+.t3
+{
+  height: 50%;
+  width: 100%;
+  padding-top:5%; 
+ 
+}
+
+.t3 img
+{
+  padding-left: 10%; 
+}
+
+.t3 img:hover
+{
+  transform: scale(1.1);
+   transition: .3s ease;
+}
+.t3 p
+{
+  margin-top: -4.2%;
+  padding-left: 17%; 
+}
+
+
+.txt5
+{
+  width: 100%;
+  height: auto;
+}
+.txt5 p
+{
+  margin-left: 47%;
+  font-size: 30px;
+}
+
+
+.singer
+{
+  float: center;
+  height: auto;
+  width:auto;
+  background: #D8D8D8;
+ 
+}
+.arjit
+{
+   margin-left: 5%;
+
+}
+.arjit img
+{
+  height: 30%;
+  width: 30%;
+
+}
+
+.arjit img:hover
+{
+  opacity: 0.9;
+}
+
+.ar1
+{
+ margin-top: -18%;
+ margin-left: 37%;
+}
+.ar1 img
+{
+  height: 220px;
+  width: 350px;
+
+}
+.ar1 img:hover
+{
+  opacity: 0.9;
+}
+.sonu
+{
+  margin-top: -17.5%;
+  margin-left: 70%;
+}
+
+.sonu img
+{
+  height: 220px;
+  width: 320px;
+
+}
+.sonu img:hover
+{
+  opacity: 0.9;
+}
+
+.neeti
+{
+  margin-top: 1%;
+  margin-left: 5%;
+ 
+}
+
+.neeti img
+{
+  height: 230px;
+  width: 360px;
+
+}
+.neeti img:hover
+{
+  opacity: 0.9;
+}
+
+.neha
+{
+  margin-top: -18.45%;
+  margin-left: 37%;
+ 
+}
+
+.neha img
+{
+  height: 230px;
+  width: 349px;
+
+}
+.neha img:hover
+{
+  opacity: 0.9;
+}
+
+.sunidhi-chauhan
+{
+  margin-top: -18.45%;
+  margin-left: 70%;
+ 
+}
+
+.sunidhi-chauhan img
+{
+  height: 230px;
+  width: 320px;
+
+}
+.sunidhi-chauhan img:hover
+{
+  opacity: 0.9;
+}
+
+.parallax1 {
+  
+  background-image: url('p2.jpg');
+  height: 10%;
+  padding-top: 40%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.a1
+{
+  height: auto;
+  width: auto;
+  margin-top: -40%;
+  margin-left: 35%;
+  
+}
+.a1 p
+{
+  font-size: 70px;
+  color:#000;
+  font-family: sans-serif;
+  
+
+}
+
+.p1
+{
+  height: auto;
+  width: auto;
+  margin-top: -5%;
+  margin-left: 47%;
+}
+.p1 img
+{
+  height: 85px;
+  width: 90px;
+  border-radius: 50%;
+  animation: asd 1s infinite;
+}
+@keyframes asd{
+  0%{
+    box-shadow: 0 0 100px #000;
+  }
+  100%{
+    box-shadow: 0 0 0px #fff;
+  }
+}
+
+.slideshow-container {
+  padding-top: 0%;
+  max-width: 100%;
+  margin: auto;
+}
+
+
+
+
+
+
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+
+.fade {
+  
+  animation-name: Avanit 2s;
+  
+}
+
+
+
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  margin-top: -50%;
+  bottom: 8px;
+  width: 90%;
+  text-align: center;
+  animation: s 6s infinite;
+  
+}
+
+.text h6
+{
+  font-size: 18px;
+      color: #fff;
+      letter-spacing: 20px;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      display: block;
+      margin-left: 10%;
+}
+
+
+.text h2
+{
+
+    
+      font-size: 60px;
+      color: #ffffff;
+      margin-bottom: 0;
+      font-weight: 400;
+      display: block;
+      text-transform: capitalize;
+      letter-spacing: 30px;
+      overflow: hidden;
+      margin-left: 10%;
+      
+}
+.p2 p
+{
+  font-size: 20px;
+  color: #fff;
+  letter-spacing: 2px;
+  margin-top: 15%;
+  font-family: EngraversGothic BT;
+  text-align: center;
+}

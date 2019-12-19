@@ -1,0 +1,184 @@
+body
+{
+	margin:0px;
+	padding: 0px;
+}
+.topnav 
+{
+  height: 50px;
+  overflow: hidden;
+  background-color: ;
+  margin-top: 0px;
+  margin-left: px;
+  width: 100%;
+  padding: 2px;
+
+}
+
+.topnav a 
+{
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 23px;
+  padding-top: 10px;
+  
+  text-decoration: none;
+  font-size: 22px;
+  color: #fff;
+
+  
+}
+
+.topnav a:hover 
+{
+
+  color: #000;
+  background-color: #fff;
+  transition: .7S;
+}
+.bg-img {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+background-image: url(breadcumb2.jpg);
+   }
+
+
+.breadcumb-area {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  height: 385px; }
+  
+  .breadcumb-area .bradcumbContent {
+    position: absolute;
+    background-color: #fff;
+    width: 552px;
+    bottom: 0;
+    left: 50%;
+    z-index: 100;
+    text-align: center;
+    padding-top: 40px;
+    transform: translateX(-50%); }
+   
+    .breadcumb-area .bradcumbContent p {
+      line-height: 1.5;
+      font-size: 16px;
+      color: #5f5f5f; }
+    .breadcumb-area .bradcumbContent h2 {
+      font-size: 30px;
+      letter-spacing: 10px;
+      text-transform: uppercase;
+      line-height: 1;
+      margin-bottom: 0; 
+    }
+    .mklogo
+{
+ 
+ height: 15%;
+ width: 9%;
+ 
+ padding: 0%;
+
+}
+.mklogo img
+{
+  height: 100px;
+  width:100px;
+ 
+  margin-left: 1%;
+  margin-top: -40%;
+}
+.parallax {
+  
+  background-image: url('p1.jpg');
+  height: 10%;
+  padding-top: 40%; 
+  opacity: 1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.title1
+{
+  margin-top: -35%;
+  margin-left: 15%;
+  height: 40%;
+  width: 70%;
+  opacity: 0.8;
+  border-radius: 10%;
+}
+.title1 h2
+{
+   color: #fff;
+   opacity: 1;
+   text-align: center;
+   letter-spacing: 10px;
+   font-family: Copperplate Gothic;
+}
+.t1 img
+{
+  height: 30px;
+  width:40px;
+}
+
+.t2 p
+{
+  font-size: 20px;
+  letter-spacing: 5px;
+  font-family: Copperplate Gothic;
+}
+.title1 img
+{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  opacity: 1;
+  margin-left: 40%;
+}
+.title1 p
+{
+  color: #fff;
+  font-size: 50px;
+  letter-spacing: 10px;
+  text-align: center;
+  margin-top: 13px;
+  animation: z 5s infinite;
+}
+@keyframes z {
+  0%
+  {
+    transform: scaleX(1);
+    color: #fff;
+  }
+  50%
+  {
+    transform: scaleX(1.1);
+    color: #fff;
+  }
+  100%
+  {
+    transform: scaleX(1);
+    color: #fff;
+  }
+
+}
+.table2
+{
+  
+  margin-top: -2%;
+  margin-left: 36%; 
+}
+
+.table2 img
+{
+  opacity: 0.8;
+}
+.table2 img:hover
+{
+   transform: scale(1.1);
+   opacity: 1;
+   transition: 0.4s;
+}
